@@ -3,7 +3,7 @@
 
 ## 📁 파일 구조
 프로젝트의 주요 파일 구조는 다음과 같습니다:
-
+```
 GoodAsOldPhones/
 ├── AppDelegate.swift                # 앱의 생명주기 관리
 ├── SceneDelegate.swift              # UI의 생명주기 관리 및 초기 화면 설정
@@ -15,7 +15,7 @@ GoodAsOldPhones/
 ├── Product.swift                    # 상품 데이터 모델
 ├── Assets.xcassets                  # 이미지 리소스
 └── Info.plist                       # 앱 설정 파일
-
+```
 ## 🛠 주요 로직 및 기술 스택
 ### 1. MVC 아키텍처 (Model-View-Controller)
 *   **Model**: `Product.swift` 구조체를 통해 상품 이미지와 타이틀 데이터를 정의합니다.
